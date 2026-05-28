@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="specs" class="com.example.autowire.type.Car_Specifics">
+        <property name="make_of_car" value="Honda"/>
+        <property name="model_of_car" value="CRV"/>
+    </bean>
+
+    <!-- autowire eg by name and looks for specs here and it should be unique and same as that of class-->
+    <bean id="MyCar" class="com.example.autowire.type.Car" autowire="byType">
+    </bean>
+
+</beans>

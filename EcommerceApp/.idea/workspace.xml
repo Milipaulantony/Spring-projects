@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c5559c3-2b15-4519-92ec-4d4508e893fa" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="38rteMuwi2gXjZzUKRDhx1L3rXN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.VirtualSaleDBApp [clean].executor": "Run",
+    "Maven.VirtualSaleDBApp [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.VirtualSaleDbAppApplication.executor": "Run",
+    "git-widget-placeholder": "CoreJavaEgs",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/milip/OneDrive/Desktop/Future_achievers/Spring boot/Spring Projects/EcommerceApp/src/main/java/com/h2db/VirtualSaleDBApp/security/request"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.h2db.VirtualSaleDBApp.security.response" />
+      <recent name="com.h2db.VirtualSaleDBApp.security.request" />
+      <recent name="com.h2db.VirtualSaleDBApp.repositories" />
+      <recent name="com.h2db.VirtualSaleDBApp.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\milip\OneDrive\Desktop\Future_achievers\Spring boot\Spring Projects\EcommerceApp\src\main\java\com\h2db\VirtualSaleDBApp\security\request" />
+      <recent name="C:\Users\milip\OneDrive\Desktop\Future_achievers\Spring boot\Spring Projects\EcommerceApp\src\main\java\com\h2db\VirtualSaleDBApp\security\jwt" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="VirtualSaleDbAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="VirtualSaleDBApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.h2db.VirtualSaleDBApp.VirtualSaleDbAppApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.h2db.VirtualSaleDBApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.VirtualSaleDbAppApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c5559c3-2b15-4519-92ec-4d4508e893fa" name="Changes" comment="" />
+      <created>1769569612594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769569612594</updated>
+    </task>
+    <servers />
+  </component>
+</project>
