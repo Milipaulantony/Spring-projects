@@ -1,0 +1,56 @@
+2026-06-22T11:06:00.895-04:00  INFO 18948 --- [securityjwtdemo] [main] c.s.s.SecurityjwtdemoApplication         : Starting SecurityjwtdemoApplication using Java 21.0.9 with PID 18948 (C:\Users\milip\OneDrive\Desktop\Future_achievers\Spring boot\Spring Projects\securityjwtdemo\target\classes started by milip in C:\Users\milip\OneDrive\Desktop\Future_achievers\Spring boot\Spring Projects\securityjwtdemo)
+2026-06-22T11:06:00.912-04:00  INFO 18948 --- [securityjwtdemo] [main] c.s.s.SecurityjwtdemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-22T11:06:02.078-04:00  INFO 18948 --- [securityjwtdemo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-22T11:06:02.144-04:00  INFO 18948 --- [securityjwtdemo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-06-22T11:06:02.914-04:00  INFO 18948 --- [securityjwtdemo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-22T11:06:02.933-04:00  INFO 18948 --- [securityjwtdemo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-22T11:06:02.933-04:00  INFO 18948 --- [securityjwtdemo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-22T11:06:03.011-04:00  INFO 18948 --- [securityjwtdemo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2023 ms
+2026-06-22T11:06:03.273-04:00  INFO 18948 --- [securityjwtdemo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-22T11:06:03.506-04:00  INFO 18948 --- [securityjwtdemo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:5b133d83-7d9c-4303-a3c3-8b3061932027 user=SA
+2026-06-22T11:06:03.508-04:00  INFO 18948 --- [securityjwtdemo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-22T11:06:03.552-04:00  INFO 18948 --- [securityjwtdemo] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-22T11:06:03.646-04:00  INFO 18948 --- [securityjwtdemo] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-22T11:06:04.244-04:00  INFO 18948 --- [securityjwtdemo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-22T11:06:04.352-04:00  INFO 18948 --- [securityjwtdemo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:5b133d83-7d9c-4303-a3c3-8b3061932027]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 5B133D83-7D9C-4303-A3C3-8B3061932027/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-22T11:06:05.580-04:00  INFO 18948 --- [securityjwtdemo] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-22T11:06:05.635-04:00  INFO 18948 --- [securityjwtdemo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-22T11:06:05.708-04:00  INFO 18948 --- [securityjwtdemo] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-22T11:06:06.017-04:00  INFO 18948 --- [securityjwtdemo] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-22T11:06:06.018-04:00  WARN 18948 --- [securityjwtdemo] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-22T11:06:06.061-04:00  WARN 18948 --- [securityjwtdemo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-22T11:06:06.295-04:00  INFO 18948 --- [securityjwtdemo] [main] c.s.s.config.SecurityConfig              : *****JWTINFO:::http building in progress
+2026-06-22T11:06:06.749-04:00  INFO 18948 --- [securityjwtdemo] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-06-22T11:06:06.830-04:00  INFO 18948 --- [securityjwtdemo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-22T11:06:06.838-04:00  INFO 18948 --- [securityjwtdemo] [main] c.s.s.SecurityjwtdemoApplication         : Started SecurityjwtdemoApplication in 6.859 seconds (process running for 7.675)
+2026-06-22T11:06:17.409-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-22T11:06:17.410-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-22T11:06:17.414-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-06-22T11:06:17.451-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-1] c.s.securityjwtdemo.security.JwtFilter   : *****JWTINFO:::doFilterInternal started
+2026-06-22T11:06:17.451-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-1] c.s.securityjwtdemo.security.JwtFilter   : *****JWTINFO:::doFilterInternal ended
+2026-06-22T11:06:17.635-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-1] c.s.s.controller.EmployeeController      : *****JWTINFO******::Login request: com.security.securityjwtdemo.dtos.LoginRequest@76b5dea2
+2026-06-22T11:06:18.983-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-1] c.s.s.controller.EmployeeController      : *****JWTINFO******::Authentication is done
+2026-06-22T11:06:18.984-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-1] c.s.securityjwtdemo.service.JwtService   : ****JWTINFO*****::Token generating here
+2026-06-22T11:07:13.377-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-3] c.s.securityjwtdemo.security.JwtFilter   : *****JWTINFO:::doFilterInternal started
+2026-06-22T11:07:13.378-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-3] c.s.securityjwtdemo.service.JwtService   : ****JWTINFO*****::Extract Username here
+2026-06-22T11:07:13.486-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-3] c.s.securityjwtdemo.security.JwtFilter   : *****JWTINFO:::doFilterInternal ended
+2026-06-22T11:07:13.499-04:00  WARN 18948 --- [securityjwtdemo] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-06-22T11:07:24.142-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-4] c.s.securityjwtdemo.security.JwtFilter   : *****JWTINFO:::doFilterInternal started
+2026-06-22T11:07:24.142-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-4] c.s.securityjwtdemo.service.JwtService   : ****JWTINFO*****::Extract Username here
+2026-06-22T11:07:24.147-04:00  INFO 18948 --- [securityjwtdemo] [http-nio-8080-exec-4] c.s.securityjwtdemo.security.JwtFilter   : *****JWTINFO:::doFilterInternal ended
+2026-06-22T11:07:34.234-04:00  INFO 18948 --- [securityjwtdemo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-22T11:07:34.242-04:00  INFO 18948 --- [securityjwtdemo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-22T11:07:34.249-04:00  INFO 18948 --- [securityjwtdemo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-22T11:07:34.253-04:00  INFO 18948 --- [securityjwtdemo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-22T11:07:34.255-04:00  INFO 18948 --- [securityjwtdemo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
