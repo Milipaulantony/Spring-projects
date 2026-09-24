@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c5559c3-2b15-4519-92ec-4d4508e893fa" name="Changes" comment="" />
+    <list default="true" id="3c5559c3-2b15-4519-92ec-4d4508e893fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CoreJavaproject/src/main/java/interviewprep/CheckedCustomExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoreJavaproject/src/main/java/interviewprep/deprecatedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoreJavaproject/src/main/java/interviewprep/functionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,20 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.VirtualSaleDBApp [clean].executor": "Run",
-    "Maven.VirtualSaleDBApp [compile].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.VirtualSaleDbAppApplication.executor": "Run",
-    "git-widget-placeholder": "CoreJavaEgs",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/milip/OneDrive/Desktop/Future_achievers/Spring boot/Spring Projects/EcommerceApp/src/main/java/com/h2db/VirtualSaleDBApp/security/request"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.VirtualSaleDBApp [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VirtualSaleDBApp [compile].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.VirtualSaleDbAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;CoreJavaEgs&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/milip/OneDrive/Desktop/Future_achievers/Spring boot/Spring Projects/EcommerceApp/src/main/java/com/h2db/VirtualSaleDBApp/security/request&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.h2db.VirtualSaleDBApp.security.response" />
